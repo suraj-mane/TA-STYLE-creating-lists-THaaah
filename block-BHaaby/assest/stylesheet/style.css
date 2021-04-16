@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom css */
+* {
+    box-sizing: border-box;
+}
+/* body */
+body {
+    font-family: 'Open Sans', sans-serif;
+	background-color: #D5CEA6;
+}
+/* container */
+.container {
+    max-width: 1400px;
+	margin: 0 auto;
+}
+/* flex */
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+/* header */
+.header {
+	background-color: #F86015;
+	height: 80px;
+}
+/* navgition bar*/
+.navbar {
+	width: 50%;
+	padding: 22px 0;
+	list-style: none;
+}
+.navbar a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+/* ol ul */
+ol {
+	list-style: decimal inside;
+}
+
+/* List */
+.list {
+	padding: 60px 0;
+}
+.box {
+	width: 30%;
+	height: 500px;
+	background-color: #015978;
+	box-shadow: 7px 7px 20px #000;
+}
+.first-list {
+	padding: 32px 28px;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #D5CEA6;
+}
+li {
+	padding: 5px 0;
+}
+/* secound list */
+.secound-list {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 32px 30px;
+	text-transform: capitalize;
+	color: #D5CEA6;
+	list-style: disc inside;
+}
+.secound-list ol {
+	padding-left: 40px;
+}
+.secound-ul {
+	padding-left: 70px;
+	list-style: square;
+}
+/* thired list */
+.third-list {
+	list-style: none inside;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 32px 40px;
+	text-transform: capitalize;
+	color: #D5CEA6;
+}
+.third-list li {
+	padding: 10px 0;
+}
+.icon {
+	padding-right: 10px;
+	color: #000;
+}
+/* Information */
+.info {
+	
+}
+.heading {
+	font-size: 32px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 100;
+	text-transform: capitalize;
+	padding: 5px 0;
+}
+dt {
+	margin-left: 40px;
+	padding: 10px 0;
+	font-size: 20px;
+	color: #6B6B57;
+}
+/* Footeer */
+.footer {
+	background-color: #252D23;
+	height: 120px;
+	margin-top: 60px;
+}
+.footer-link {
+	list-style: none;
+	padding: 50px 0;
+}
+.footer-link a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #ECE7D9;
+	text-transform: capitalize;
+	margin-left: 20px;
+}
